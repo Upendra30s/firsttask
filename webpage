@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internships</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ecf0f1;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            overflow: hidden;
+        }
+
+        .courses-container {
+            display: flex;
+            flex-wrap: wrap; /* Add wrap to make the items go to the next row */
+            justify-content: space-around;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .course {
+            width: 45%; /* Adjusted width to fit two items in a row with a little gap */
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .course:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .view-details-btn {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .view-details-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Internships</h1>
+    </header>
+
+    <div class="container">
+        <section class="courses-container">
+            <div class="course" style="width: 45%; border: 1px solid #ddd; padding: 15px; margin: 20px; text-align: center; background-color: #fff;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                <h2>Python</h2>
+                <p><strong>Duration:</strong> 1-2 months</p>
+                <p><strong>Stipend:</strong> --</p>
+                <p><strong>Start Date:</strong> 05/11/2023</p>
+                <a href="#" class="view-details-link"><button class="view-details-btn">View Details</button></a>
+            </div>
+
+            <div class="course" style="width: 45%; border: 1px solid #ddd; padding: 15px; margin: 20px; text-align: center; background-color: #fff;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                <h2>Web Development</h2>
+                <p><strong>Duration:</strong> 1-2 months</p>
+                <p><strong>Stipend:</strong> --</p>
+                <p><strong>Start Date:</strong> 05/11/2023</p>
+                <a href="#" class="view-details-link"><button class="view-details-btn">View Details</button></a>
+            </div>
+
+            <div class="course" style="width: 45%; border: 1px solid #ddd; padding: 15px; margin: 20px; text-align: center; background-color: #fff;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                <h2>App Development</h2>
+                <p><strong>Duration:</strong> 1-2 months</p>
+                <p><strong>Stipend:</strong> --</p>
+                <p><strong>Start Date:</strong> 05/11/2023</p>
+                <a href="#" class="view-details-link"><button class="view-details-btn">View Details</button></a>
+            </div>
+
+            <div class="course" style="width: 45%; border: 1px solid #ddd; padding: 15px; margin: 20px; text-align: center; background-color: #fff;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                <h2>Java</h2>
+                <p><strong>Duration:</strong> 1-2 months</p>
+                <p><strong>Stipend:</strong> --</p>
+                <p><strong>Start Date:</strong> 05/11/2023</p>
+                <a href="#" class="view-details-link"><button class="view-details-btn">View Details</button></a>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
